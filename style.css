@@ -159,11 +159,62 @@ nav li{
     height: 450px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
     margin: auto;
+    
+    
 }
 
 .exp ul{
-
+    padding-left:0%;
+    list-style-type: none;
+    width: 200px;
+    margin: auto;
 }
+
+.exp li:nth-child(1){
+    text-align: center;
+    font-size:26px;
+    font-weight: 700;
+    color: darkslategray;
+    
+}
+
+.exp li:nth-child(2){
+    margin-top: 15px;
+}
+.exp li{
+    margin-top: 15px;
+    
+}
+.exp li div{
+    width: 50px;
+    height: 50px;
+    float: left;
+    background-color:#e2c8d9;
+    margin-right: 4%;
+    border-radius: 12px;
+}
+.exp li p{
+    margin: 0%;
+}
+.exp li p:nth-child(4){
+    margin-top: 10px;
+}
+.exp li p:nth-child(1){
+    font-family: 'Heebo', sans-serif;
+    font-size:20px;
+    font-weight: 700; 
+}
+
+.exp li p:nth-child(3){
+    font-family: 'Heebo', sans-serif;
+    font-size:18px;
+}
+.exp li p:nth-child(4){
+    font-size:18px;
+    margin-top: 1%;
+    color: grey;
+}
+
 .row3 {
     width:1100px;
     height:300px;
