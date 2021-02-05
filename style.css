@@ -12,7 +12,7 @@ nav{
     margin:auto;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
     font-family: 'Poppins', sans-serif;
-    /* transition: transform 1s; */
+   
     
 }
 nav ul {
@@ -26,6 +26,7 @@ nav li{
    margin: auto;
    font-size:20px;
    font-weight:600;
+   transition: box-shadow 1s;
 }
 
 .row1{
@@ -46,7 +47,7 @@ nav li{
     width:200px;
     height: 200px;
     margin: auto;
-    /* transition: border-radius 1s;  */
+    transition: border-radius 1s; 
 }
 
 .namecard div p:nth-child(1){
@@ -54,14 +55,14 @@ nav li{
     width:300px;
     font-size:36px;
     margin-bottom: 0%;
-    /* transition: transform 0.5s; */
+    transition: transform 0.5s;
     
 }
 .namecard div p:nth-child(2){
     color: #333333;
     width:250px;
     font-size: 20px;
-    /* transition: transform 0.5s; */
+    transition: transform 0.5s;
    
 }
 .skills{
@@ -69,6 +70,7 @@ nav li{
     height:250px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
     margin: auto;
+    
     
 }
 .skills div {
@@ -86,12 +88,14 @@ nav li{
     width:200px;
     background-color: lightgrey;
     margin-bottom: 25px;
+    transition: transform 0.5s;
 }
 
 .html div div{
     width: 70%;
     margin-left: 0%;
     background-color:lightpink;
+   
 }
 
 .css div div {
@@ -119,6 +123,7 @@ nav li{
     margin: auto;
     margin-right: 0%;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    
 }
 
 .projects div p{
@@ -136,6 +141,7 @@ nav li{
     color: white;
     font-size: 24px;
     border-radius: 20px;
+    
 }
 .slides div p{
     margin: auto;
@@ -169,47 +175,46 @@ nav li{
     width: 200px;
     margin: auto;
 }
-
-.exp li:nth-child(1){
-    text-align: center;
-    font-size:26px;
+#exphead{
+    font-size: 26px;
     font-weight: 700;
-    color: darkslategray;
-    
+    color:rgb(121, 61, 81);
+
+
+}
+.exp p{
+    text-align: center;
+    margin-bottom:0%;
+    margin-top:10px;
 }
 
-.exp li:nth-child(2){
+
+.exp ul li{
     margin-top: 15px;
 }
-.exp li{
-    margin-top: 15px;
-    
-}
-.exp li div{
+.exp ul li div{
     width: 50px;
     height: 50px;
     float: left;
     background-color:#e2c8d9;
     margin-right: 4%;
     border-radius: 12px;
+    transition: width 1s;
 }
-.exp li p{
-    margin: 0%;
-}
-.exp li p:nth-child(4){
-    margin-top: 10px;
-}
-.exp li p:nth-child(1){
+
+.exp ul li span p{
     font-family: 'Heebo', sans-serif;
     font-size:20px;
     font-weight: 700; 
+ 
 }
 
-.exp li p:nth-child(3){
+.exp ul li p:nth-child(3){
     font-family: 'Heebo', sans-serif;
     font-size:18px;
+    margin-top: -3%;
 }
-.exp li p:nth-child(4){
+.exp ul li p:nth-child(4){
     font-size:18px;
     margin-top: 1%;
     color: grey;
@@ -308,7 +313,7 @@ nav li{
         transform-origin: center;
     }
     .skills div p{
-        width: 50px;
+        width: 100px;
         margin:auto;
         text-align: center;
         margin-bottom: 10px;
@@ -358,8 +363,42 @@ nav li{
 
 .exp{
     width: 500px;
-        height:350px;
+    height:350px;
 }
+#exphead{
+    padding-top:20px;
+}
+.exp ul{
+    display: flex;
+    width: 400px;
+    margin-top:20px;
+}
+
+.exp ul li div:nth-child(1){
+    width: 100px;
+    margin-bottom: 15px;
+   
+}
+.exp ul li p:nth-child(1){
+    width: 150px;
+    text-align: left;
+    font-size:18px;
+    font-weight: 600;
+    
+}
+
+.exp ul li p:nth-child(3){
+    font-size:18px;
+    font-weight: 400;
+    text-align: left;
+}
+.exp ul li p:nth-child(4){
+   font-size:16px;
+   text-align: left;
+   width: 130px;
+
+}
+
 .row3 {
         display: none;
     }
