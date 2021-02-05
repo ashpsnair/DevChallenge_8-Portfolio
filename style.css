@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Poppins:wght@300&family=Titillium+Web:wght@300&display=swap');
+
+.main{
+    width:1200px;
+    margin:auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    width:1100px;
+    height:60px;   
+    margin:auto;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif;
+    /* transition: transform 1s; */
+    
+}
+nav ul {
+    width: 800px;
+    height:60px;  
+    display:flex;
+    list-style: none; 
+    margin: auto;
+}
+nav li{
+   margin: auto;
+   font-size:20px;
+   font-weight:600;
+}
+
+.row1{
+    width:1100px;
+    height:300px;
+   margin: auto;
+    display: flex;
+    font-family: 'Heebo', sans-serif;
+}
+.namecard{
+    display: flex;
+    width: 600px;
+    height:250px;
+    margin: auto;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+.namecard img{
+    width:200px;
+    height: 200px;
+    margin: auto;
+    /* transition: border-radius 1s;  */
+}
+
+.namecard div p:nth-child(1){
+    columns: #333333;
+    width:300px;
+    font-size:36px;
+    margin-bottom: 0%;
+    /* transition: transform 0.5s; */
+    
+}
+.namecard div p:nth-child(2){
+    color: #333333;
+    width:250px;
+    font-size: 20px;
+    /* transition: transform 0.5s; */
+   
+}
+.skills{
+    width: 350px;
+    height:250px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    
+}
+.skills div {
+    width:200px ;
+    margin: auto;
+    
+    
+}
+.skills p{
+    margin-bottom: 0%;
+    margin-top: 25px;
+}
+
+.skills div div{
+    width:200px;
+    background-color: lightgrey;
+    margin-bottom: 25px;
+}
+
+.html div div{
+    width: 70%;
+    margin-left: 0%;
+    background-color:lightpink;
+}
+
+.css div div {
+    width: 85%;
+    margin-left: 0%;
+    background-color:lightblue;
+}
+
+.javascript div div {
+    width: 50%;
+    margin-left: 0%;
+    background-color:rgb(251, 222, 175);
+}
+
+.blocks{
+    display: flex;
+    width: 1100px;
+    height:500px;
+    margin: auto;
+    
+}
+.projects{
+    width: 600px;
+    height: 450px;
+    margin: auto;
+    margin-right: 0%;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.projects div p{
+    text-align: center;
+    padding-top:0px;
+    font-size:26px;
+    font-weight: 700;
+    margin-bottom: 3%;
+}
+.slides div{
+    width:550px;
+    height: 350px;
+    margin: auto;
+    text-align:center;
+    color: white;
+    font-size: 24px;
+    border-radius: 20px;
+}
+.slides div p{
+    margin: auto;
+    padding-top: 25%;
+}
+.slides{
+    display: none;
+}
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;}
+
+  
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+.exp{
+    width: 300px;
+    height: 450px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    margin: auto;
+}
+
+.exp ul{
+
+}
+.row3 {
+    width:1100px;
+    height:300px;
+    margin: auto;
+    display:flex;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    
+}
+
+
+
+@media screen and (max-width: 800px){
+
+    .main{
+        width: 600px;
+        margin: auto;
+    }
+    nav{
+        width: 350px;
+        height: 70px;
+        box-shadow: none;
+     
+    }
+   
+   nav ul{
+      width: 150px;
+      height: 200px;
+      padding-top:40px;
+      padding-left: 300px;
+       display: block;
+       margin: 0%;    
+       
+
+   }
+   nav li{
+       width: 100px;
+       margin-top:10px;
+       font-size:17px;
+       padding: 7%;
+       box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+   
+   }
+    .row1{
+        width: 600px;
+        display: block;
+        margin:0%;
+        height: auto;
+    }
+    .namecard{
+        width: 450px;
+        display:block;
+        height:300px;
+        margin:auto;
+        box-shadow:none;
+    }
+    .namecard img{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin-left: 30px;
+       
+       
+    }
+    .namecard div{
+        width: 500px;
+    }
+  
+    .namecard div:nth-child(2) p:nth-child(1){
+        transform: translateY(-300px);
+        margin-top: 5%;
+        margin-bottom: 8%;
+        
+    }
+    .namecard div:nth-child(2) p:nth-child(2){
+        width: 280px;
+        transform: translateY(-100px);
+       
+    }
+    .skills{
+        width: 500px;
+        display:flex;
+        height:200px;
+        margin:auto;
+      
+        
+    }
+    .skills div div{
+        width:50px;
+        height: 100px;
+        transform: rotate(180deg);
+        transform-origin: center;
+    }
+    .skills div p{
+        width: 50px;
+        margin:auto;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .html div div{
+        height:80%;
+        text-align: center;
+    }
+    .css div div{
+        height:50%;
+        text-align: center;
+    }
+
+    .javascript div div{
+        height:65%;
+        text-align: center;
+    }
+
+    .blocks{
+        width: 600px;
+        display: block;
+        height: auto;
+        margin: auto;
+        
+    }
+    .projects{
+        width: 500px;
+        height:350px;
+        margin: auto;
+        
+    }
+
+
+.projects div p{
+    text-align: center;
+    padding-top:10px;
+    font-size:20px;
+    font-weight: 700;
+     margin-bottom: 3%;
+}
+.slides div{
+    width:450px;
+    height: 250px;
+    
+}
+
+
+.exp{
+    width: 500px;
+        height:350px;
+}
+.row3 {
+        display: none;
+    }
+
+.hobbies{
+    display: none;
+}
+.knowme{
+    display: none;
+}
+
+}

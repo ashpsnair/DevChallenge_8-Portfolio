@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<div class="main">
+    <nav>
+        <ul>
+            <li>About Me</li>
+            <li>Projects</li>
+            <li>Blogs</li>
+            <li>Contact Me</li>
+
+        </ul>
+    </nav>
+    <div class="row1">
+    
+    <div class="namecard">
+        <img src="/Images/programmer.jpg">
+        <div>
+            <p>Name .Surname </p>
+            <p>Designation or description of the person in few lines</p>
+        </div>
+    </div>
+    <div class="skills">
+        <div class="html">
+            <p>HTML</p>
+            <div>
+                <div>70%</div>
+            </div>
+        
+        </div>
+        <div class="css">
+            <p>CSS</p>
+            <div>
+                <div>85%</div>
+            </div>
+        
+        </div>
+        <div class="javascript">
+            <p>Javascript</p>
+            <div>
+                <div>50%</div>
+            </div>
+        
+        </div>
+    </div>
+
+    </div>
+    <div class="blocks">
+ 
+        <div class="projects">
+            <div class="slides fade">
+                <p>Checkout my Projects here</p>
+                <div style="background-color:#8ebada;"><p> Project 1</p></div>
+            </div>
+            <div class="slides fade">
+                <p>Checkout my Projects here</p>
+                <div style="background-color:#d8b8a9;"><p> Project 2</p></div>
+            </div>
+            <div class="slides fade">
+                <p>Checkout my Projects here</p>
+                <div style="background-color: #abb8a1;"><p> Project 3</p></div>
+            </div>
+            <div class="slides fade">
+                <p>Checkout my Projects here</p>
+                <div style="background-color: #bbb8d8;"><p> Project 4</p></div>
+            </div>
+               
+        </div>
+
+        <div class="exp">
+            <ul>
+
+            </ul>
+        </div>
+    </div>
+    <div class="row3">
+        <div class="blogs">
+
+        </div>
+        <div class="hobbies">
+
+        </div>
+        <div class="knowme">
+
+        </div>
+    </div>
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("slides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 3500); // Change image every 2 seconds
+}
+
+</script>
+
+
+
+</body>
+</html>
