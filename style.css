@@ -251,7 +251,7 @@ nav li{
 @media screen and (max-width: 800px){
 
     .main{
-        width: 600px;
+        width: 500px;
         margin: auto;
     }
     nav{
@@ -280,7 +280,7 @@ nav li{
    
    }
     .row1{
-        width: 600px;
+        width: 500px;
         display: block;
         margin:0%;
         height: auto;
@@ -365,7 +365,7 @@ nav li{
     }
 
     .blocks{
-        width: 600px;
+        width: 500px;
         display: block;
         height: auto;
         margin: auto;
